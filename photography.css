@@ -1,0 +1,731 @@
+/*new photography*/
+.sub_title_left { 
+  font-family: "josefin-1";
+  font-size: 100px;
+  width: 600px;
+  float: left;
+  margin: 20px 0 0 40px;
+}
+
+.sub_title_right { 
+  font-family: "josefin-1";
+  font-size: 100px;
+  width: 600px;
+  float: right;
+  margin: 20px 80px 0 0;
+}
+
+.sub_title { 
+  font-family: "josefin-1";
+  font-size: 100px;
+  width: 600px;
+  margin: 20px 0 20px 0px;
+}
+
+.title_center {
+  font-family: "josefin-1";
+  font-weight: 100;
+  font-size: 200px;
+  width: 100%; 
+  text-align: center;
+}
+
+.date { 
+  font-family: "josefin-1"; 
+  font-weight: 200; 
+  font-size: 20px;
+}
+
+.story_text { 
+  font-family: "josefin-1";
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.full_bg_band {
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  height: 60px;
+}
+
+.end_text {
+  font-family: "josefin-1";
+  font-size: 30px;
+  line-height: 150%;
+}
+
+p{
+  margin: 0 0 20px 0; 
+}
+
+p, ul{
+  font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size-adjust:0.488;
+  font-weight:200;
+  font-style:normal;
+}
+
+img{
+  border: 0;
+}
+
+h1, #pixels{
+  font-family:"Museo 900", Verdana, serif;
+  font-size-adjust:0.40;
+  font-weight:700;
+  font-style:normal;
+}
+
+h2{    
+  font-family:"josefin-1", Verdana, sans-serif;
+  font-size: 100pt;
+  font-weight: 100;
+  font-style:normal;
+}
+
+#header h1, #pixels{
+  color: #48941A;
+}
+
+.float-left{
+  min-width: 600px;
+  float: left;  
+  margin: 0 0 0 40px;
+}
+
+.float-right{
+  min-width: 600px;
+  float: right;
+  margin: 0 80px 0 0;
+}
+
+.float-right-bottom{
+  float: right;
+  margin: 0 100px 0 0;
+}
+
+.float-center {
+  margin: 0 80px 0 80px;
+  text-align: center;
+}
+
+
+.center{
+  font-size: 2.5em;
+  padding: 80px 0 0 0;
+  text-align: center;
+}
+
+#nav{
+  list-style: none;
+  position: fixed;
+  right: 20px;
+}
+
+#nav li{
+  margin: 0 0 15px 0; 
+}
+
+#header, #intro, #second, #layover0 {
+  width: 100%;
+}
+
+
+
+
+#intro{
+  background:url(photography/firstBg.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#second{
+  background: url(photography/secondBg.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#second .bg{
+  background: url(photography/fourthBg.png) 50% 0 no-repeat fixed;
+  height: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 900px;
+  z-index: 200;
+}
+
+#third{
+  background: url(photography/thirdBg.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 650px;
+  padding: 100px 0 0 0; 
+}
+
+#fifth{
+  background: #ccc;
+  height: 400px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+
+.story{
+  margin: 0 auto;
+  min-width: 980px;
+  overflow: auto;
+  width: 100%;
+}
+
+.story .title_center { 
+  margin-top: 200px;
+}
+.story .float-left, .story .float-right{
+  padding: 100px 0 0 0;
+  position: relative;
+  width: 350px; 
+}
+
+.story_center {
+  width: 600px; 
+  margin: 20px auto;
+}
+
+/*All the sections*/
+
+#layover0{
+  background:url(photography/Japan/layover0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1269px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+#layover1{
+  background:url(photography/Japan/layover1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#layover2{
+  background:url(photography/Japan/layover2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#layover3{
+  background:url(photography/Japan/layover3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1269px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#shibuya0 {
+  background: url(photography/Japan/shibuya0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#shibuya1 {
+  background: url(photography/Japan/shibuya1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#shibuya2 {
+  background: url(photography/Japan/shibuya2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tsukiji0 {
+  background: url(photography/Japan/tsukiji0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tsukiji1 {
+  background: url(photography/Japan/tsukiji1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tsukiji2 {
+  background: url(photography/Japan/tsukiji2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tsukiji3 {
+  background: url(photography/Japan/tsukiji3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#tsukiji4 {
+  background: url(photography/Japan/tsukiji5.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai0 {
+  background-color: #FFFFFF;
+  color: white;
+  height: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai2 {
+  background: url(photography/Japan/sushidai2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai3 {
+  background: url(photography/Japan/sushidai3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai4 {
+  background: url(photography/Japan/sushidai4.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai5 {
+  background: url(photography/Japan/sushidai5.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai6 {
+  background: url(photography/Japan/sushidai6.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai7 {
+  background: url(photography/Japan/sushidai7.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai8 {
+  background: url(photography/Japan/sushidai8.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai9 {
+  background: url(photography/Japan/sushidai9.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai10 {
+  background: url(photography/Japan/sushidai10.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai11 {
+  background: url(photography/Japan/sushidai11.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai12 {
+  background: url(photography/Japan/sushidai12.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai13 {
+  background: url(photography/Japan/sushidai13.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai14 {
+  background: url(photography/Japan/sushidai14.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai15 {
+  background: url(photography/Japan/sushidai15.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#sushidai16 {
+  background: url(photography/Japan/sushidai1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ginza0 {
+  background: url(photography/Japan/ginza0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ginza1 {
+  background: url(photography/Japan/ginza2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#fashion0 {
+  background: url(photography/Japan/fashion0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1269px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#fashion1{
+  min-height: 1422px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#fashion1_bg1 {
+  background: url(photography/Japan/fashion1.jpg) 0 0 no-repeat fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+}
+
+#fashion1_bg2 {
+  background: url(photography/Japan/fashion2.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg3 {
+  background: url(photography/Japan/fashion3.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg4 {
+  background: url(photography/Japan/fashion4.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg5 {
+  background: url(photography/Japan/fashion5.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg6 {
+  background: url(photography/Japan/fashion6.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg7 {
+  background: url(photography/Japan/fashion7.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg8 {
+  background: url(photography/Japan/fashion8.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+
+#fashion1_bg9 {
+  background: url(photography/Japan/fashion9.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg10 {
+  background: url(photography/Japan/fashion10.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+
+#fashion1_bg11 {
+  background: url(photography/Japan/fashion11.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg12 {
+  background: url(photography/Japan/fashion12.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+
+#fashion1_bg13 {
+  background: url(photography/Japan/fashion13.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg14 {
+  background: url(photography/Japan/fashion14.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+
+#fashion1_bg15 {
+  background: url(photography/Japan/fashion15.jpg) 0 0 no-repeat fixed;
+  float: left;
+  min-height: 1422px;
+  width: 50%;
+
+}
+
+#fashion1_bg16 {
+  background: url(photography/Japan/fashion16.jpg) right top no-repeat fixed;
+  float: right;
+  min-height: 1422px;
+  width: 50%;
+}
+
+#daikanyama1 {
+  background: url(photography/Japan/daikanyama1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#daikanyama2 {
+  background: url(photography/Japan/daikanyama2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1269px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama0 {
+  background: url(photography/Japan/yokohama0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama1 {
+  background: url(photography/Japan/yokohama1.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama2 {
+  background: url(photography/Japan/yokohama2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama3 {
+  background: url(photography/Japan/yokohama3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama4 {
+  background: url(photography/Japan/yokohama4.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#yokohama5 {
+  background: url(photography/Japan/yokohama5.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ueno0 {
+  background: url(photography/Japan/ueno0.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ueno1 {
+  background: url(photography/Japan/ueno1-2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ueno2 {
+  background: url(photography/Japan/ueno2.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1269px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#ueno3 {
+  background: url(photography/Japan/ueno3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#end0 {
+  background: url(photography/Japan/end0-3.jpg) 50% 0 no-repeat fixed;
+  color: white;
+  height: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}

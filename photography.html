@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <script type="text/javascript" src="//use.typekit.net/ctm6fhx.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $("#overlay-tokyo").css('height', $(window).height());
+      $("#overlay-tokyo").css('width', $(window).width());
+      $("img#tokyo").css('width', $(window).width());
+      $("img#tokyo").css('height', 'auto');
+      var halfWidth = $(window).width()/2;
+      var halfHeight = $(window).height()/2-50;
+      var circle = "circle("+halfWidth+"px, " + halfHeight + "px, 100px)";
+      var circleWhole = "circle("+halfWidth+"px, " + halfHeight + "px, 1000px)";
+
+      $("<style type='text/css'> @-webkit-keyframes explode { from { -webkit-clip-path: "+circle+"; } to { -webkit-clip-path: "+circleWhole+";} } </style>").appendTo("head");
+
+      $("img#tokyo").css('-webkit-clip-path', circle);
+
+      $("img#tokyo").click(function(){
+        $("img#tokyo").toggleClass("tokyo-animate");
+
+      })
+
+
+    });
+
+  </script>
+
+</head>
+
+<body>
+  <div id="overlay-tokyo">
+    <div id="photo-header">
+      <h3>TOKYO</h3>
+      <a href="japan.html"><img id="tokyo-thumb" src="photography/thumbs/tokyo-thumb.png" width="250" height="250" ></a>
+
+    </div>
+  </div>
+</body>
+</html>
