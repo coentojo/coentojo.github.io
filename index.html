@@ -10,12 +10,26 @@
   <script type="text/javascript">
 
     $(document).ready(function(){
+
+      var analogy = ["I AM A SAILBOAT ON A LAKE", "WHEN THERE IS WIND", "I EMBRACE AND I GO", "WHEN IT IS STILL", "I SIT, CALMLY, AND RE-ENERGIZE"]
+
       $("#tasted").click(function(){
 
         $("#tasted").fadeOut('slow', function(){
           $("#tasted").text("COMING SOON,").fadeIn('slow', function(){
             $("#tasted").delay('1000').fadeOut('slow', function(){
               $("#tasted").text("THING I'VE TASTED,").fadeIn('slow');
+            });
+          });
+
+        });
+      });
+      $("#learned").click(function(){
+
+        $("#learned").fadeOut('slow', function(){
+          $("#learned").text("I AM SAILBOAT ON A LAKE. WHEN THERE IS A GUST OF WIND, I EMBRACE IT AND I JUST GO. WHEN IT IS STILL, I SIT CALMLY AND RE-ENERGIZE, AWAITING THE NEXT BREEZE,").fadeIn('slow', function(){
+            $("#learned").delay('10000').fadeOut('slow', function(){
+              $("#learned").text("THING I'VE LEARNED,").fadeIn('slow');
             });
           });
 
@@ -30,7 +44,7 @@
 
 <body>
   <p class="intro">
-    <a target="_blank" href="http://christopherlaurence.tumblr.com">THINGS I'VE LEARNED,</a>
+    <a href="#" id="learned">THINGS I'VE LEARNED,</a>
     <a href="photography.html">THINGS I'VE SEEN,</a><br/>
     <a href="#" id="tasted">THINGS I'VE TASTED,</a>
     <a href="project_poof.html">THINGS I'VE MADE</a>
